@@ -1,5 +1,4 @@
 require './player.rb'
-require './random_calculator.rb'
 require './evaluator.rb'
 
 class Game
