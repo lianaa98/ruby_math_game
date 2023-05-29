@@ -10,4 +10,8 @@ class Calculator
     @answer = @first + @second
   end
 
+  def question
+    puts "What does #{@first} plus #{@second} equal?"
+  end
+
 end

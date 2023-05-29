@@ -14,8 +14,5 @@ class Evaluator
     # P1: 2/3 vs P2: 3/3
     puts "P1: #{@player1.score}/3 vs P2 #{@player2.score}/3"
   end
-  
-end
 
-eval = Evaluator.new
-eval.current_score
+end
