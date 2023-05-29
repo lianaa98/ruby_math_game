@@ -1,7 +1,5 @@
 require './player.rb'
-# Player 1 && 2 takes turn
-
-# Math calculator
+require './random_calculator.rb'
 
 # Evaluator
 # Player response to answer
@@ -12,6 +10,10 @@ class Evaluator
   def initialize
     @player1 = Player.new
     @player2 = Player.new
+  end
+
+  def start
+    puts "Player 1: "
   end
 
 
