@@ -6,8 +6,8 @@ class Evaluator
   attr_accessor :player2
 
   def initialize
-    @player1 = Player.new
-    @player2 = Player.new
+    @player1 = Player.new(1)
+    @player2 = Player.new(2)
   end
 
   def current_score
